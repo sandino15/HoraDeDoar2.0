@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "420605468279",
+    "project_id": "hora-de-doar-dad7a",
+    "storage_bucket": "hora-de-doar-dad7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420605468279:android:97c8eb7fd1eeb3ed583072",
+        "android_client_info": {
+          "package_name": "com.example.horadedoar20"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTI3Rcdh6a8wwAFMk_NWJyi6kqUzEmxkk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

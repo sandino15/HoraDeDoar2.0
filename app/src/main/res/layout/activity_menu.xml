@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4A8A8"
+    android:orientation="vertical"
+    tools:context=".CriarConta.CadastroActivity"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".RegisterActivity"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:breakStrategy="high_quality"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:text="Hora de Doar"
+            android:textColor="@color/white"
+            android:textSize="39dp"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            app:srcCompat="@drawable/cooracao" />
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            app:srcCompat="@drawable/icone"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Para quem doa são alguns minutos para quem recebe é uma vida inteira."
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            />
+
+        <Button
+
+            android:id="@+id/menuCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#E3402A"
+            android:onClick="menuCadastro"
+            android:text="Cadastrar"
+
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/menuLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#E3402A"
+            android:onClick="menuLogin"
+            android:text="Login"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
