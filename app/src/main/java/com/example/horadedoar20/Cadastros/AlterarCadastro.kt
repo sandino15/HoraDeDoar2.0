@@ -14,6 +14,7 @@ import com.example.horadedoar20.Helper.Base64Custom
 import com.example.horadedoar20.Helper.ConfiguracaoFireBase
 import com.example.horadedoar20.Menu.Menu
 import com.example.horadedoar20.Model.Usuario
+import com.example.horadedoar20.Paginas.PagePrincipal
 import com.example.horadedoar20.R
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
@@ -155,7 +156,7 @@ class AlterarCadastro : AppCompatActivity() {
                 if (task.isSuccessful) {
                     progressBar.visibility = View.GONE
                     Toast.makeText(this@AlterarCadastro, "Cadastro atualizado com sucesso", Toast.LENGTH_SHORT).show()
-                    startActivity(Intent(applicationContext,Menu::class.java))
+                    startActivity(Intent(applicationContext,PagePrincipal::class.java))
                     finish()
                 } else {
                     progressBar.visibility = View.GONE
@@ -174,16 +175,16 @@ class AlterarCadastro : AppCompatActivity() {
     }
 
     private fun inicializarComponentes() {
-        campoNome = findViewById(R.id.editCadastroNome)
-        campoEmail = findViewById(R.id.editCadastroEmail)
-        campoSenha = findViewById(R.id.editCadastroSenha)
-        campoConfirmarSenha = findViewById(R.id.ConfirmarSenha)
-        campoFone = findViewById(R.id.editCadastroFone)
-        campoEndereco = findViewById(R.id.editCadastroEndereco)
-        campoNascimento = findViewById(R.id.editCadastroNascimento)
-        campoSangue = findViewById(R.id.editCadastroSangue)
-        botaoCadastrar = findViewById(R.id.botaoCadastro)
-        progressBar = findViewById(R.id.progressCadastro)
+        campoNome = findViewById(R.id.alteraraNomecompleto)
+        campoEmail = findViewById(R.id.alteraraMudemail)
+        campoSenha = findViewById(R.id.alteraraMudprimesenha)
+        campoConfirmarSenha = findViewById(R.id.alteraraMudconfirmasenha)
+        campoFone = findViewById(R.id.alteraraMeuFone)
+        campoEndereco = findViewById(R.id.alteraraMudEndereco)
+        campoNascimento = findViewById(R.id.alteraraDatnascimento)
+        campoSangue = findViewById(R.id.alteraraTiposanguineo)
+        botaoCadastrar = findViewById(R.id.alterarcadastrar)
+        progressBar = findViewById(R.id.progressAlterarCadastro)
 
         campoNome.requestFocus()
 
