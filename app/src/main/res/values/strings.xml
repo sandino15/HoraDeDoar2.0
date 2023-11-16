@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HoraDeDoar2.0</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps_ihene">MapsIhene</string>
 </resources>

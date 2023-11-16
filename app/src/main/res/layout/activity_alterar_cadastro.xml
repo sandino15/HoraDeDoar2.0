@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4A8A8"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hora de Doar"
+        android:textSize="39sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id = "@+id/relativelayout"
+        android:layout_marginStart="2dp"
+        >
+        <ImageButton
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="380dp"
+            app:srcCompat="@drawable/setavoltar"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/stroke"
+            android:hapticFeedbackEnabled = "@dimen/material_emphasis_medium"
+            android:contentDescription="TODO"/>
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="55dp"
+            android:layout_marginEnd="4dp"
+            android:importantForAccessibility="no"
+            android:padding="1dp"
+            android:src="@drawable/icone" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/nomecompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/stroke"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:importantForAutofill="no"
+        android:maxLines="1"
+        android:minHeight="8dp"
+        android:padding="5dp"
+        android:hint="Nome Completo"
+        tools:ignore="HardcodedText,LabelFor,TextFields,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/datnascimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/stroke"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:inputType="number"
+        android:minHeight="8dp"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:hint="Data Nascimneto"
+        tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+
+
+    <EditText
+        android:id="@+id/tiposanguineo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/stroke"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:maxLines="1"
+        android:minHeight="8dp"
+        android:padding="5dp"
+        android:hint="Tipo Sanguineo"
+        tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,VisualLintTextFieldSize"
+        />
+
+    <EditText
+        android:id="@+id/mudEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/stroke"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:maxLines="1"
+        android:minHeight="8dp"
+        android:padding="5dp"
+        android:hint="Endereço"
+        tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+    <EditText
+        android:id="@+id/meuFone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/stroke"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:maxLines="1"
+        android:minHeight="8dp"
+        android:padding="5dp"
+        android:hint="Fone"
+        tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/mudemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/stroke"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:maxLines="1"
+        android:minHeight="8dp"
+        android:padding="5dp"
+        android:hint="Email"
+        tools:ignore="Autofill,HardcodedText,LabelFor,TextFields,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/mudprimesenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/stroke"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:inputType="number"
+        android:minHeight="8dp"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:hint="Senha"
+        tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/mudconfirmasenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/stroke"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:minHeight="8dp"
+        android:inputType="number"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:hint="confirmar senha"
+        tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/icone"
+        android:layout_marginTop="40dp"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+
+    <Button
+        android:id="@+id/alterarcadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alterar Cadastro"
+        android:textStyle="bold"
+        android:backgroundTint="#E3402A"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+
+
+
+</LinearLayout>

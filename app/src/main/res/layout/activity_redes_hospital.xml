@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RedeHospitais.RedesHospital">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#F4A8A8"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Redes Credenciadas"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:layout_marginTop="-300dp"
+            android:layout_marginBottom="80dp"
+            />
+        <Button
+            android:id="@+id/BotaoHemope"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hemope"
+            android:textColor="@color/white"
+            android:backgroundTint="#E3402A"
+            android:onClick="HemopeClick"
+            />
+
+        <Button
+            android:id="@+id/BotaoHieme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ihene"
+            android:textColor="@color/white"
+            android:backgroundTint="#E3402A"
+            android:onClick="IheneClick"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
