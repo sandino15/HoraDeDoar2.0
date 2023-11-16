@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.horadedoar20.Cadastros.AlterarCadastro
 import com.example.horadedoar20.R
 import com.example.horadedoar20.RedeHospitais.RedesHospital
 

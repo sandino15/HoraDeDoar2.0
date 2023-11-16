@@ -1,4 +1,4 @@
-package com.example.horadedoar20.Paginas
+package com.example.horadedoar20.Cadastros
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -16,13 +16,7 @@ import com.example.horadedoar20.Menu.Menu
 import com.example.horadedoar20.Model.Usuario
 import com.example.horadedoar20.R
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
-import com.google.firebase.auth.FirebaseAuthUserCollisionException
-import com.google.firebase.auth.FirebaseAuthWeakPasswordException
-import com.google.firebase.database.DataSnapshot
-import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
-import com.google.firebase.database.ValueEventListener
 
 class AlterarCadastro : AppCompatActivity() {
 
